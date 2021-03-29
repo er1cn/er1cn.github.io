@@ -1,23 +1,28 @@
 *{
-    font-family: Helvetica, sans-serif;
-    
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    font-family: Helvetica, sans-serif;   
 }
 
 .header {
    font-size: larger; 
-
-
- 
+   margin-bottom: 0;
+   padding-bottom: 0;
 } 
 
 .header h3 {
     font-weight: lighter;
+    font-style: italic;
+}
+.profile img{
+    margin: 50 px;
+    border: 100% solid #ccc;
+    width: 180px; 
 
 }
-
 .content {
     margin: 50px;
     padding-left: 10px;
+    
 }
 
 .content h3 {
@@ -31,14 +36,14 @@
 }
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+    margin: 5 px;
+    border: 1 px solid #ccc;
     float: left;
-    width: 180px;
+    width: 180px; 
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 1 px solid #777;
   }
   
   div.gallery img {
@@ -50,26 +55,13 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* section ul { 
-/* list-style-type: none;
-font-weight: lighter;
-display:flex;
+div.gallery { 
+list-style-type: none;
 justify-content: space-evenly;
 align-items: center;
-position: relative; */ */
+}
 
+.links li {
+    list-style: none;
 }

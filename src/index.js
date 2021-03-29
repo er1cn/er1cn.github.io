@@ -14,14 +14,10 @@ aboutMeText.innerText = `I'm a coder guy in the making learning software enginee
 const currently = document.getElementsByClassName('content') [0]
 const currentlyText = currently.getElementsByTagName('p') [1];
 
-currentlyText.innerText = `I work at Amazon (STL8) as a fulfilment Center Associate.`;
+currentlyText.innerText = `I work at Amazon (STL8) as a Fulfilment Center Associate.`;
 
 const beforeThat = document.getElementsByClassName('content') [0];
 const beforeThatText = beforeThat.getElementsByTagName('p') [2];
 
 beforeThatText.innerText = `I was working freelance as a video editor using Premiere Pro and After Effects software to tell stories creatively using video.`;
 
-const interests = document.getElementsByClassName('my interests');
-const activity1Text = interests.getElementsByTagName('ul') [0];
-
-activity1Text.innerText = `I was working freelance as a video editor using Premiere Pro`;
